@@ -37,7 +37,7 @@ try:
  
     # Read PIR state
     Current_State = GPIO.input(GPIO_PIR)
-    sys.stdout=open("pir_log.txt", "a")
+    sys.stdout=open("/home/pi/code/logs/pirlog.txt", "a")
     if Current_State==1 and Previous_State==0:
         # PIR is triggered
         start_time=time.time()
