@@ -7,7 +7,7 @@ import datetime
 # Use BCM GPIO references
 GPIO.setmode(GPIO.BCM)
 
-GPIO_PIR = 27
+GPIO_PIR = 17
 
 print ("PIR Module Holding Time Test (CTRL-C to exit)")
 
